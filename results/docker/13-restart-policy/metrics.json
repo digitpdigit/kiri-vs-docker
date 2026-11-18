@@ -1,0 +1,17 @@
+{
+    "test_id":  "13",
+    "test_name":  "restart policy",
+    "runtime":  "docker",
+    "round":  1,
+    "quick":  0,
+    "result":  "PASS",
+    "label":  "Verified",
+    "engine_version":  "28.3.2",
+    "app_image_id":  "sha256:4dcea8f45ad8f792cda82f75e6d67fb05f7b96d7291e939e36e9f843d5058df3",
+    "host":  "win-host",
+    "load_on_host":  1,
+    "metrics":  {
+                    "app_recovered":  1,
+                    "postgres_recovered":  1
+                }
+}

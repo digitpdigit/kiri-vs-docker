@@ -1,0 +1,17 @@
+{
+    "test_id":  "21",
+    "test_name":  "app latency k6",
+    "runtime":  "kiri",
+    "round":  1,
+    "quick":  0,
+    "result":  "PASS",
+    "label":  "Verified",
+    "engine_version":  "27.5.1",
+    "app_image_id":  "sha256:f8635dcd4674750210a1e8a8e0c26c0c4293795adff8f0b8a60b924b063b8888",
+    "host":  "win-host",
+    "load_on_host":  1,
+    "metrics":  {
+                    "p50_ms":  0.5,
+                    "p95_ms":  1.7
+                }
+}

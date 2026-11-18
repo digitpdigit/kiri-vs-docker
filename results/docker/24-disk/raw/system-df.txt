@@ -1,0 +1,23 @@
+﻿Images space usage:
+
+REPOSITORY           TAG       IMAGE ID       CREATED        SIZE      SHARED SIZE   UNIQUE SIZE   CONTAINERS
+kiri-vs-docker-app   local     4dcea8f45ad8   27 hours ago   21.5MB    0B            21.54MB       1
+postgres             16        dd2bf3ce2dc8   4 days ago     661MB     0B            661MB         1
+redis                7         2e3eb11462c4   12 days ago    167MB     0B            167.3MB       1
+
+Containers space usage:
+
+CONTAINER ID   IMAGE                      COMMAND                  LOCAL VOLUMES   SIZE      CREATED          STATUS                    NAMES
+bed3c54c1042   kiri-vs-docker-app:local   "/app"                   0               4.1kB     14 seconds ago   Up 7 seconds (healthy)    kvd-app-1
+2138188a36dd   redis:7                    "docker-entrypoint.s…"   1               4.1kB     14 seconds ago   Up 13 seconds (healthy)   kvd-redis-1
+49fce912173f   postgres:16                "docker-entrypoint.s…"   1               20.5kB    14 seconds ago   Up 13 seconds (healthy)   kvd-postgres-1
+
+Local Volumes space usage:
+
+VOLUME NAME     LINKS     SIZE
+kvd_redisdata   1         177B
+kvd_pgdata      1         48.11MB
+
+Build cache usage: 0B
+
+CACHE ID   CACHE TYPE   SIZE      CREATED   LAST USED   USAGE     SHARED

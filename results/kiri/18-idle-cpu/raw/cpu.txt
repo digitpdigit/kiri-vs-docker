@@ -1,0 +1,1 @@
+﻿cpu_one_core_pct=1.38 sample_s=180 match=kiri

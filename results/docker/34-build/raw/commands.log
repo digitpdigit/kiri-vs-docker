@@ -1,0 +1,1 @@
+$ docker build -t kiri-vs-docker-app:build-test <repo>\app

@@ -1,0 +1,15 @@
+﻿
+   Id ProcessName        WorkingSet_MB CPU_s
+   -- -----------        ------------- -----
+14972 Docker Desktop             223.9   4.1
+ 4276 Docker Desktop               163   1.9
+ 9336 com.docker.backend         161.9  12.2
+29044 Docker Desktop             103.2   1.7
+23476 com.docker.backend          57.9   0.3
+27644 Docker Desktop                50   0.2
+ 7196 com.docker.build            30.6   0.1
+17904 docker                      21.6     0
+20868 docker                      21.5     0
+
+
+

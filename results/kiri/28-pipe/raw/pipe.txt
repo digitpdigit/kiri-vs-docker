@@ -1,0 +1,2 @@
+﻿pipe_path=\\.\pipe\kiri
+can_connect=True

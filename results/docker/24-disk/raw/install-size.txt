@@ -1,0 +1,1 @@
+paths=C:\Program Files\Docker; C:\Users\<user>\AppData\Local\Docker install_mb=5683.9

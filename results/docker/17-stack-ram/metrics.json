@@ -1,0 +1,21 @@
+{
+    "test_id":  "17",
+    "test_name":  "stack RAM",
+    "runtime":  "docker",
+    "round":  1,
+    "quick":  0,
+    "result":  "PASS",
+    "label":  "Verified",
+    "engine_version":  "28.3.2",
+    "app_image_id":  "sha256:4dcea8f45ad8f792cda82f75e6d67fb05f7b96d7291e939e36e9f843d5058df3",
+    "host":  "win-host",
+    "load_on_host":  1,
+    "metrics":  {
+                    "engine_before_mb":  747.8,
+                    "engine_after_mb":  741.6,
+                    "engine_delta_mb":  -6.2,
+                    "host_free_delta_mb":  147.1,
+                    "vmmem_mb":  1730.3,
+                    "vhdx_mb":  20807
+                }
+}

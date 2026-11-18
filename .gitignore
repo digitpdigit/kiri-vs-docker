@@ -1,0 +1,41 @@
+# Local-only notes
+docs/
+
+# Secrets / local env (keep compose/.env.example)
+.env
+compose/.env
+
+# Binaries
+app/app
+app/app.exe
+tests/tools/writeloop/writeloop
+tests/tools/writeloop/writeloop.exe
+tests/tools/verify/verify
+tests/tools/verify/verify.exe
+*.exe
+
+# Helper output (ack log lives outside the SUT)
+ack.log
+*.ack.log
+
+# Built images saved for transfer
+*.tar
+*.tar.gz
+app-image.tar
+fio-image.tar
+artifacts/
+
+# Go
+vendor/
+coverage.out
+*.test
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+
+docs/

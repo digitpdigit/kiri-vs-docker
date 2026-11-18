@@ -1,0 +1,20 @@
+{
+    "test_id":  "24",
+    "test_name":  "disk usage",
+    "runtime":  "docker",
+    "round":  1,
+    "quick":  0,
+    "result":  "PASS",
+    "label":  "Verified",
+    "engine_version":  "28.3.2",
+    "app_image_id":  "sha256:4dcea8f45ad8f792cda82f75e6d67fb05f7b96d7291e939e36e9f843d5058df3",
+    "host":  "win-host",
+    "load_on_host":  1,
+    "metrics":  {
+                    "images_gb":  0.83,
+                    "volumes_gb":  0.047,
+                    "cache_gb":  0,
+                    "install_mb":  5683.9,
+                    "vhdx_mb":  2360
+                }
+}

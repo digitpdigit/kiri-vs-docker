@@ -1,0 +1,1 @@
+﻿cpu_one_core_pct=11.56 sample_s=180 match=com.docker|docker

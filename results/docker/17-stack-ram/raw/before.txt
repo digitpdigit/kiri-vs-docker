@@ -1,0 +1,1 @@
+﻿before_ram_mb=747.8 free_mb=13186.3

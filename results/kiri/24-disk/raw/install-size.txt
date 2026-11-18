@@ -1,0 +1,1 @@
+paths=C:\Users\<user>\AppData\Local\Kiri install_mb=1212.7

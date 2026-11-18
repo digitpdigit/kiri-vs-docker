@@ -1,0 +1,3 @@
+﻿$ docker compose down -v --remove-orphans
+$ curl http://127.0.0.1:8080/debug/log?n=10000&size=200
+$ docker compose logs --no-color --tail 50 app

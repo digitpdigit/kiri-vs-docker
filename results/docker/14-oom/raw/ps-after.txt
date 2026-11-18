@@ -1,0 +1,4 @@
+﻿app running
+postgres running
+redis running
+

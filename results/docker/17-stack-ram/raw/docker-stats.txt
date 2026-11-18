@@ -1,0 +1,5 @@
+﻿NAME                     MEM USAGE / LIMIT     MEM %
+kvd-app-1                9.387MiB / 256MiB     3.67%
+kvd-postgres-1           49.21MiB / 512MiB     9.61%
+kvd-redis-1              9.133MiB / 128MiB     7.14%
+spring-boot-postgresql   39.16MiB / 15.53GiB   0.25%

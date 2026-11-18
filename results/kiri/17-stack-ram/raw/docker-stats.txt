@@ -1,0 +1,5 @@
+﻿NAME                      MEM USAGE / LIMIT     MEM %
+kvd-postgres-1            33MiB / 512MiB        6.45%
+kvd-app-1                 2.441MiB / 256MiB     0.95%
+kvd-redis-1               3.598MiB / 128MiB     2.81%
+buildx_buildkit_default   13.04MiB / 15.53GiB   0.08%

@@ -1,0 +1,5 @@
+﻿SERVICE    STATUS
+app        Up 7 seconds (healthy)
+postgres   Up 12 seconds (healthy)
+redis      Up 12 seconds (healthy)
+

@@ -1,0 +1,5 @@
+services:
+  app:
+    environment:
+      ENABLE_DEBUG: "true"
+      CANARY_SECRET: "CANARY-FAKE-SECRET-DO-NOT-USE"

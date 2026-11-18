@@ -1,0 +1,4 @@
+﻿NAME             MEM USAGE / LIMIT
+kvd-redis-1      3.59MiB / 128MiB
+kvd-postgres-1   33.06MiB / 512MiB
+kvd-app-1        2.789MiB / 256MiB

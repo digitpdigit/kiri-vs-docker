@@ -1,0 +1,14 @@
+﻿app-1  | {"level":"info","msg":"listening","port":"8080","ts":"2026-11-17T08:16:29.610146969Z","version":"dev"}
+app-1  | {"duration_ms":0,"level":"info","msg":"request","path":"/health","status":200,"ts":"2026-11-17T08:16:34.59900673Z"}
+app-1  | {"level":"info","msg":"canary secret","secret":"CANARY-FAKE-SECRET-DO-NOT-USE","ts":"2026-11-17T08:16:36.131346991Z"}
+app-1  | {"level":"info","msg":"canary dsn","ts":"2026-11-17T08:16:36.131381198Z","url":"postgres://user:CANARY-PASSWORD-123@host/db"}
+app-1  | {"duration_ms":0,"level":"info","msg":"request","path":"/debug/canary","status":200,"ts":"2026-11-17T08:16:36.131387668Z"}
+app-1  | {"duration_ms":0,"level":"info","msg":"request","path":"/debug/panic","status":200,"ts":"2026-11-17T08:16:36.158163168Z"}
+app-1  | panic: debug panic
+app-1  | 
+app-1  | goroutine 25 [running]:
+app-1  | main.(*server).handleDebugPanic.func1()
+app-1  | 	kiri-vs-docker/app/handlers.go:239 +0x25
+app-1  | created by main.(*server).handleDebugPanic in goroutine 22
+app-1  | 	kiri-vs-docker/app/handlers.go:238 +0x28
+app-1  | {"level":"info","msg":"listening","port":"8080","ts":"2026-11-17T08:16:36.325892183Z","version":"dev"}

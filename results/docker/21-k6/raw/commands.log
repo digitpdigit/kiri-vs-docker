@@ -1,0 +1,2 @@
+$ docker compose down -v --remove-orphans
+$ k6 run --vus 10 --duration 30s <repo>\results\20261117-docker-21+2\raw\load.js

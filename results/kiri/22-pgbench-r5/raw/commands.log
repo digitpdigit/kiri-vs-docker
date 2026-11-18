@@ -1,0 +1,5 @@
+﻿$ docker compose down -v --remove-orphans
+$ docker compose up -d --no-build
+$ docker compose exec -T postgres pgbench -U app -i -s10 appdb
+$ docker compose exec -T postgres pgbench -U app -c 5 -j 2 -T 30 -S appdb
+$ docker compose exec -T postgres pgbench -U app -c 5 -j 2 -T 30 appdb
